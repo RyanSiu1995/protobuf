@@ -34,7 +34,7 @@ syntax = "proto2";
 package protobuf_unittest;
 
 import "google/protobuf/unittest.proto";
-import "google/protobuf/unittest_proto3.proto";
+import "third_party/protobuf/unittest_proto3.proto";
 
 option optimize_for = CODE_SIZE;
 option java_multiple_files = true;
